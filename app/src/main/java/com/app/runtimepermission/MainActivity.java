@@ -131,6 +131,8 @@ public class MainActivity extends AppCompatActivity {
             } else if (requestCode == 2) {
                 requestContactPermission();
             }
+        }else {
+            Toast.makeText(this, "Need Permission to External Storage Permission", Toast.LENGTH_SHORT).show();
         }
     }
 
